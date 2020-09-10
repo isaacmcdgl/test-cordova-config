@@ -22,7 +22,7 @@ module.exports = (function () {
 		 * @return {ElementTree}		The XML document.
 		 */
 		parse: function (file) {
-			console.log('____________------------_________------- This is the testing REPO')
+			console.log('____________---UPDATED---_________------- This is the testing REPO')
 			var contents = fs.readFileSync(file, 'utf-8');
 
 			if (contents) {
