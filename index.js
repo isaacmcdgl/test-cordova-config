@@ -191,6 +191,7 @@ module.exports = (function () {
 	 * @param {string}    packageName    The android package name.
 	 */
 	Config.prototype.setAndroidPackageName = function (packageName) {
+		console.log("_______________ WEEE WOOO WEE WOO WEE WOO ___________")
 		var regex = new RegExp('[\\w.]+');
 
 		if (!regex.test(packageName)) {
