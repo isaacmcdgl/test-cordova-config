@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "cordova-config@git://github.com/rstraub/cordova-config.git#0024864019321ff0dcf8b23b0b79708a3a2955eb",
+      "."
+    ]
+  ],
+  "_development": true,
+  "_from": "git://github.com/CharityDynamics/cordova-config.git",
+  "_id": "cordova-config@0.6.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-config",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "cordova-config@git://github.com/CharityDynamics/cordova-config.git",
+    "name": "cordova-config",
+    "escapedName": "cordova-config",
+    "rawSpec": "git://github.com/CharityDynamics/cordova-config.git",
+    "saveSpec": "git://github.com/CharityDynamics/cordova-config.git",
+    "fetchSpec": "git://github.com/CharityDynamics/cordova-config.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/gulp-cordova-preference",
+    "/gulp-cordova-xml"
+  ],
+  "_resolved": "git://github.com/CharityDynamics/cordova-config.git#348c8aef3885fb3f9c57dc68bc21349666607ce9",
+  "_spec": "cordova-config@git://github.com/CharityDynamics/cordova-config.git",
+  "_where": "/Users/isaacmcdougal/Projects/bf-builds",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/SamVerschueren/cordova-config/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "elementtree": "^0.1.6",
+    "pify": "^2.3.0",
+    "pinkie-promise": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "Parse and edit the config.xml file of a cordova project",
+  "devDependencies": {
+    "ava": "*",
+    "coveralls": "^2.11.4",
+    "fs-extra": "^0.24.0",
+    "nyc": "^3.2.2",
+    "tempfile": "^1.1.1",
+    "xo": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/SamVerschueren/cordova-config",
+  "keywords": [
+    "cordova",
+    "config",
+    "xml"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "cordova-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamVerschueren/cordova-config.git"
+  },
+  "scripts": {
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "test": "xo && nyc ava"
+  },
+  "version": "0.6.2",
+  "xo": {
+    "rules": {
+      "new-cap": [
+        2,
+        {
+          "capIsNewExceptions": [
+            "XML"
+          ]
+        }
+      ]
+    }
+  }
+}
