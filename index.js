@@ -179,6 +179,12 @@ module.exports = (function () {
 		this._root.attrib['android-versionCode'] = versionCode;
 	};
 
+	Config.prototype.setXmlnsAndroid= function () {
+		console.log("------------------- MY GLASS BEAD HAS TURNED RED")
+		// Set the version of the widget tag
+		this._root.attrib['xmlns:android'] = "http://schemas.android.com/apk/res/android";
+	};
+
 	/**
 	 * Sets the Android package name of the config file.
 	 *
